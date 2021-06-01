@@ -1,5 +1,4 @@
 import React from 'react';
-import DatePicker from 'react-datepicker2';
 
 export const Input = (props) => {
   return (
@@ -59,10 +58,3 @@ export const Option = (props) => {
   );
 };
 
-export const ReactDatePicker = (props) => {
-  return (
-    <>
-     <DatePicker isGregorian={true} {...props} timePicker={false} />
-    </>
-  );
-};
